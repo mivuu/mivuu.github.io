@@ -503,6 +503,27 @@ body {
     margin: 0 auto;
     transition: transform 0.8s cubic-bezier(.14,.6,.36,1);
 } 
+ 
+.friends p {
+    font-size: 1.3rem;
+    min-width: 50%;
+    min-height: 25%;
+    margin: 0;
+}
+    
+.project-title{
+    font-size: 4.3rem; line-height: 1.25; letter-spacing: -.1rem;
+} 
+
+.footer-text, .friends-box {
+    margin-left: 20px;
+}
+    
+.friends-box {
+    margin-top: 100px;
+}    
+    
+    
     
 }
 
@@ -570,10 +591,12 @@ footer h5 {
 .whisper {
     font-size: 1.2rem;
 }
+    
 }
 
 
 @media only screen and (max-width : 375px){
+
 body {
 overflow-x: hidden;
 
@@ -587,7 +610,7 @@ overflow-x: hidden;
     position: absolute;
     font-size: 8rem;
     font-family: "Playfair Display";
-    top: -3rem;
+    top: -2rem;
     font-style: italic;
     left: 22.5rem;
     line-height: 0;
@@ -604,9 +627,24 @@ overflow-x: hidden;
     transition: transform 0.8s cubic-bezier(.14,.6,.36,1);
 }
     
+.friends p {
+    font-size: 1.2rem;
+    min-width: 50%;
+    min-height: 25%;
+    margin: 0;
+}
+    
 .project-title{
     font-size: 4.3rem; line-height: 1.25; letter-spacing: -.1rem;
-}  
+} 
+
+.footer-text, .friends-box {
+    margin-left: 20px;
+}
+    
+.friends-box {
+    margin-top: 100px;
+}     
 }
 
 
