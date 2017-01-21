@@ -396,7 +396,7 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 footer {
-    height: 98vh;
+    height: 100vh;
     padding: 120px 0;
     display: flex;
     justify-content: center;
@@ -472,10 +472,17 @@ body {
 .left-nav, .right-nav {
     visibility: hidden;
 }
-    
-/* Cards
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.huge-number {
+    position: absolute;
+    font-size: 8rem;
+    font-family: "Playfair Display";
+    top: -2rem;
+    font-style: italic;
+    left: 25rem;
+    line-height: 0; 
+}    
+    
 .card {
     position: relative;
     z-index: 1;
@@ -485,30 +492,18 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-/* Background
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.bg-gradient {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: -2;
-
-    background: linear-gradient(#51c46a 50%, #036378);
-}
-
-.bg-gradient-top {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-
-    opacity: 1;
-    transition: opacity 0.8s cubic-bezier(.14,.6,.36,1);
-    background: linear-gradient(#ff5a5a 50%, #42264c);
-}
-
+    
+.project-box {
+    color: white;
+    margin: 50px 0 50px 20rem;
+    position: relative;
+    max-width: 360px;
+    border: 14px solid white;
+    padding: 40px 30px 40px 30px;
+    margin: 0 auto;
+    transition: transform 0.8s cubic-bezier(.14,.6,.36,1);
+} 
+    
 }
 
 
@@ -523,7 +518,7 @@ body {
     
 .huge-number {
     position: absolute;
-    font-size: 6rem;
+    font-size: 10rem;
     font-family: "Playfair Display";
     top: -3rem;
     font-style: italic;
@@ -590,7 +585,7 @@ overflow-x: hidden;
     
 .huge-number {
     position: absolute;
-    font-size: 5rem;
+    font-size: 8rem;
     font-family: "Playfair Display";
     top: -3rem;
     font-style: italic;
