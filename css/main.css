@@ -464,6 +464,10 @@ footer {
 }
 
 @media only screen and (max-width : 414px){
+
+body {
+    overflow-x: hidden;
+}
     
 .left-nav, .right-nav {
     visibility: hidden;
@@ -508,10 +512,10 @@ footer {
 }
 
 
-
-
-
 @media only screen and (max-width : 400px){
+body {
+    overflow-x: hidden;
+}
 
 .left-nav, .right-nav {
     visibility: hidden;
@@ -575,6 +579,10 @@ footer h5 {
 
 
 @media only screen and (max-width : 375px){
+body {
+overflow-x: hidden;
+
+}
 
 .left-nav, .right-nav {
     visibility: hidden;
