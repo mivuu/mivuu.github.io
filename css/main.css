@@ -422,9 +422,17 @@ footer {
 }
 
 .footer-whisper {
-    margin-top: -7%;
+    margin-top: -9%;
     font-size: 1.5rem;
     letter-spacing: 0.01rem;
+}
+
+.footer-motto {
+    margin: 10px 0 80px 18px;
+    width: 550px;
+    font-family: "Playfair Display";
+    font-size: 4.5rem;
+    
 }
 
 .footer-text {
@@ -557,7 +565,6 @@ body {
 .footer-motto {
     margin: 10px 0 80px 18px;
     width: 250px;
-    font-family: "Playfair Display";
     font-size: 2.5rem;
 }
 
@@ -692,7 +699,6 @@ overflow-x: hidden;
 .footer-motto {
     margin: 10px 0 80px 18px;
     width: 250px;
-    font-family: "Playfair Display";
     font-size: 2.5rem;
 }
     
