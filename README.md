@@ -1,2 +1,1 @@
-# mivuu.github.io
-Portfolio website.
+# vu
