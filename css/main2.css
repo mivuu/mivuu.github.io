@@ -157,6 +157,7 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
+    width: 120px;
     position: fixed;
     top: 40px;
     left: 40px;
@@ -467,7 +468,7 @@ body {
     overflow-x: hidden;
 }
     
-.left-nav {
+.left-nav, .intro-arrow-box, .intro-arrow {
     visibility: hidden;
 }
     
@@ -545,28 +546,14 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 @media only screen and (max-width : 400px){
-    
+     
 body {
     overflow-x: hidden;
 }
 
-.left-nav, .right-nav {
+.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
     visibility: hidden;
 }
     
@@ -624,7 +611,7 @@ overflow-x: hidden;
     max-width: 230px;
 } 
 
-.left-nav {
+.left-nav, .intro-arrow-box, .intro-arrow {
     visibility: hidden;
 }
     

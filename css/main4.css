@@ -153,6 +153,7 @@ a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
+    width: 120px;
     position: fixed;
     top: 40px;
     left: 40px;
@@ -461,7 +462,7 @@ body {
     overflow-x: hidden;
 }
     
-.left-nav {
+.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
     visibility: hidden;
 }
     
@@ -550,7 +551,7 @@ body {
     overflow-x: hidden;
 }
 
-.left-nav {
+.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
     visibility: hidden;
 }
     
@@ -608,7 +609,7 @@ overflow-x: hidden;
     max-width: 230px;
 } 
 
-.left-nav {
+.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
     visibility: hidden;
 }
     
