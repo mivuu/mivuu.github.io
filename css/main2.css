@@ -83,77 +83,6 @@ a:hover {
 }
 
 
-/* Arrow
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.intro-arrow-box {
-    position: absolute;
-    bottom: 40px;
-
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.intro-arrow {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
--webkit-animation:bounce 1.5s infinite;
-}
-
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-
 /* Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -400,15 +329,7 @@ a:hover {
     padding: 60px 50px 60px 80px;
     margin: 0 auto;
 } 
-    
-.intro-arrow-box {
-    position: absolute;
-    bottom: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}    
+  
 
 .line {
     margin-bottom: 25px;
@@ -489,14 +410,7 @@ body {
     top: -1rem;
     left: 25rem;
 } 
-    
-.intro-arrow-box {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 100px;
-    width: 100px;
-    align-items: center;
-}    
+
 
 .card {
     position: relative;
@@ -578,15 +492,6 @@ body {
     line-height: 0; 
 }
     
-.intro-arrow-box {
-    position: absolute;
-    bottom: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-    
 .project-box {
     color: #303030;
     margin: 50px 0 50px 20rem;
@@ -638,15 +543,6 @@ overflow-x: hidden;
     font-style: italic;
     left: 22.5rem;
     line-height: 0;
-}
-    
-.intro-arrow-box {
-    position: absolute;
-    bottom: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
     
 .project-box {
