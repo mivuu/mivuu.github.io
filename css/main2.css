@@ -492,6 +492,7 @@ body {
     
 .intro-arrow-box {
     position: absolute;
+    margin: 0 auto;
     bottom: 60px;
     width: 100px;
     display: flex;
