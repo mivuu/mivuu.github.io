@@ -22,13 +22,13 @@ body {
     font-size: 1.6em;
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Sofia Pro", sans-serif;
+    font-family: 'sofia_pro_regularregular', sans-serif;
     color: #222;
-    overflow-x: hidden;
 
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .content {
