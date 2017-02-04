@@ -81,78 +81,6 @@ a:hover {
     justify-content: center;
 }
 
-
-/* Arrow
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.intro-arrow-box {
-    position: absolute;
-    bottom: 40px;
-
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.intro-arrow {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
--webkit-animation:bounce 1.5s infinite;
-}
-
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-
 /* Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -496,7 +424,7 @@ body {
     overflow-x: hidden;
 }
     
-.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
+.left-nav{
     visibility: hidden;
 }
     
@@ -566,7 +494,7 @@ body {
     overflow-x: hidden;
 }
 
-.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
+.left-nav{
     visibility: hidden;
 }
     
@@ -611,7 +539,7 @@ overflow-x: hidden;
     width: 200px;
 } 
 
-.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
+.left-nav{
     visibility: hidden;
 }
     
