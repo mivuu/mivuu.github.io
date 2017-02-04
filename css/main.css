@@ -509,6 +509,17 @@ body {
     letter-spacing: -.1rem; 
 }
 
+    
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+    
 .huge-number {
     position: absolute;
     font-size: 8rem;
@@ -597,6 +608,15 @@ body {
     left: 23rem;
     line-height: 0; 
 }
+    
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 .project-box {
     color: white;
@@ -671,6 +691,15 @@ overflow-x: hidden;
     line-height: 0;
 }
 
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    
 .project-box {
     color: white;
     margin: 50px 0 50px 20rem;
