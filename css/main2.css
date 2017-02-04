@@ -400,6 +400,15 @@ a:hover {
     padding: 60px 50px 60px 80px;
     margin: 0 auto;
 } 
+    
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}    
 
 .line {
     margin-bottom: 25px;
@@ -458,18 +467,13 @@ a:hover {
 
 
 
-
-
-
-
-
 @media only screen and (max-width : 414px){
 
 body {
     overflow-x: hidden;
 }
     
-.left-nav, .intro-arrow-box, .intro-arrow {
+.left-nav {
     visibility: hidden;
 }
     
@@ -477,7 +481,6 @@ body {
     font-size: 4rem;
     line-height: 1.2;
     letter-spacing: -.1rem; 
-
 }
 
 .huge-number {
@@ -486,6 +489,15 @@ body {
     top: -1rem;
     left: 25rem;
 } 
+    
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}    
 
 .card {
     position: relative;
@@ -543,9 +555,7 @@ body {
     width: 340px;
 
 }     
-
 }
-
 
     
 @media only screen and (max-width : 400px){
@@ -554,7 +564,7 @@ body {
     overflow-x: hidden;
 }
 
-.left-nav, .right-nav, .intro-arrow-box, .intro-arrow {
+.left-nav, .right-nav{
     visibility: hidden;
 }
     
@@ -568,7 +578,16 @@ body {
     left: 23rem;
     line-height: 0; 
 }
-
+    
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    
 .project-box {
     color: #303030;
     margin: 50px 0 50px 20rem;
@@ -590,13 +609,8 @@ body {
     
 .project-desc {
     max-width: 215px;
-}     
-    
+}       
 }
-
-
-
-
 
 
 
@@ -612,7 +626,7 @@ overflow-x: hidden;
     max-width: 230px;
 } 
 
-.left-nav, .intro-arrow-box, .intro-arrow {
+.left-nav{
     visibility: hidden;
 }
     
@@ -626,7 +640,16 @@ overflow-x: hidden;
     left: 22.5rem;
     line-height: 0;
 }
-
+    
+.intro-arrow-box {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    
 .project-box {
     margin: 50px 0 50px 20rem;
     position: relative;

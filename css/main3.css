@@ -324,7 +324,7 @@ a:hover {
 }
 
 .subtitle {
-    font-family: 'sofia pro';
+    font-family: 'sofia_pro_regularregular', sans-serif;
     letter-spacing: 0.01rem;
     display: flex;
     align-items: left;
