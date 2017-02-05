@@ -428,7 +428,7 @@ body {
     position: relative;
     max-width: 360px;
     border: 14px solid white;
-    padding: 40px 0 40px 50px;
+    padding: 40px 30px 40px 30px;
     margin: 0 auto;
     transition: transform 0.8s cubic-bezier(.14,.6,.36,1);
 } 
@@ -501,8 +501,7 @@ body {
     padding: 60px 30px 40px 60px;
     margin: 0 auto;
     transition: transform 0.8s cubic-bezier(.14,.6,.36,1);
-} 
-    
+}   
 .line {
     margin-bottom: 50px;
 }    
@@ -546,6 +545,7 @@ overflow-x: hidden;
 }
     
 .project-box {
+    color: #303030;
     margin: 50px 0 50px 20rem;
     position: relative;
     max-width: 340px;
