@@ -310,6 +310,7 @@ a:hover {
 }
 
 
+
 /* Media
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -385,8 +386,6 @@ a:hover {
 
 }      
 }
-
-
 
 @media only screen and (max-width : 414px){
 
@@ -466,7 +465,6 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 340px;
-
 }     
 }
 
@@ -514,8 +512,6 @@ body {
     max-width: 215px;
 }       
 }
-
-
 
     
 @media only screen and (max-width : 375px){

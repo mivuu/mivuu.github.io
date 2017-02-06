@@ -309,15 +309,33 @@ a:hover {
 }
 
 .image-2 {
-    padding: 4% 0 100px 0;
+    padding: 60px 0 100px 0;
     margin: 0 auto;
 }
 
 
 .ending {
     padding-bottom: 200px;
-
 }
+
+.owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.item img {
+    margin: 50px 0 20px 0;
+    display: block;
+    width: 100%;
+    float: left;
+    height: auto;
+
 
 /* Media
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

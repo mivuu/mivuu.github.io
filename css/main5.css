@@ -299,7 +299,7 @@ a:hover {
 
 
 .approach-1 {
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
     -webkit-column-count: 2;
     -moz-column-count: 2; 
     column-count: 2;
@@ -322,12 +322,13 @@ a:hover {
 }
 
 .video-responsive{
-    width: 740px;
     overflow:hidden;
-    padding-bottom: 56.25%;
+    margin-top: 50px;
+    padding-bottom: 43%;
     position:relative;
     height:0;
 }
+
 .video-responsive iframe{
     left:0;
     top:0;
@@ -335,6 +336,27 @@ a:hover {
     width:100%;
     position:absolute;
 }
+
+.item img{
+    margin: 50px 0 20px 0;
+    display: block;
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+
+.owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
 
 /* Media
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -435,7 +457,6 @@ a:hover {
     
 .video {
     max-width: 740;
-    
 
 }    
 }
@@ -603,19 +624,7 @@ overflow-x: hidden;
     
 }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
     
