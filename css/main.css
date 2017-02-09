@@ -54,6 +54,12 @@ h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
     font-size: 1.1rem;
 }
 
+.underline {
+    width: 3px;
+    background-color: white;
+}
+
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
@@ -267,10 +273,6 @@ a:hover {
     display: inline-block;
 }
 
-.right-nav .nav-list li {
-
-}
-
 .nav-list li p {
     display: inline;
 }
@@ -305,7 +307,6 @@ a:hover {
 
 .project {
     color: white;
-    
     display: flex;
     align-items: center;
     justify-content: center;

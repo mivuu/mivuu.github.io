@@ -272,6 +272,11 @@ a:hover {
     width: 350px;
 }
 
+.text-box-2 {
+    padding-left: 15px;
+    width: 100%;
+}
+
 .text-container {
     padding-left: 50px;
 }
