@@ -182,7 +182,7 @@ a {
     position: relative;
     max-width: 520px;
     padding: 60px 40px 60px 80px;
-    background: linear-gradient(#2F0F0F, #CF2B40 50%);
+    background: linear-gradient(#ff758c, #ff7eb3 50%);
 
     transition: transform 0.8s cubic-bezier(.14,.6,.36,1);
 }

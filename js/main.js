@@ -6,11 +6,13 @@ var back = false;
 // the graident colours, in order
 // if you wanna change them do that here
 var gradients = [
-    "linear-gradient(#ff5a5a 50%, #42264c)",
     "linear-gradient(#51c46a 50%, #036378)",
+    "linear-gradient(#ff5a5a 50%, #42264c)",
     "linear-gradient(#ad2bcf 50%, #0be3f1)",
-    "linear-gradient(#cf2b40 50%, #2f0f0f)"
+    "linear-gradient(#ff758c 50%, #ff7eb3)"
 ];
+
+
 
 var currentGradient = 0;
 

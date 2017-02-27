@@ -389,12 +389,12 @@ a:hover {
 
 .proj-1 .project-box:hover > .project-image {
     opacity: 1;
-    background-image: url("../images/Skin_1.png");
+    background-image: url("../images/pr4_1.png");
 }
 
 .proj-2 .project-box:hover > .project-image {
     opacity: 1;
-    background-image: url("../images/pr4_1.png");
+    background-image: url("../images/Skin_1.png");
 }
 
 .proj-3 .project-box:hover > .project-image {
@@ -744,13 +744,6 @@ overflow-x: hidden;
 }
 
 }
-
-
-
-
-
-
-
 
 
 
