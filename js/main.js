@@ -12,8 +12,6 @@ var gradients = [
     "linear-gradient(#ff758c 50%, #ff7eb3)"
 ];
 
-
-
 var currentGradient = 0;
 
 // this is the function that changes the gradient
