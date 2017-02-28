@@ -63,8 +63,12 @@ h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 .underline {
-    width: 3px;
-    background-color: #303030;
+    position: absolute;
+    top: 44%;
+    width: 30px;
+    left: -30px;
+    opacity: 1;
+    transform: rotate(90deg); 
 }
 
 

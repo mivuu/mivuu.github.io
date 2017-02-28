@@ -54,10 +54,6 @@ h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
     font-size: 1.1rem;
 }
 
-.underline {
-    width: 3px;
-    background-color: white;
-}
 
 
 /* Links
@@ -65,6 +61,11 @@ h6 { font-size: 1.6rem; line-height: 1.6;  letter-spacing: 0; }
 a {
     text-decoration: none;
     color: #333;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 a:hover {
@@ -125,7 +126,7 @@ a:hover {
 
 .intro-arrow-box {
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
 
     width: 100%;
     display: flex;
@@ -192,7 +193,7 @@ a:hover {
 
 
 .intro-motto {
-    margin: 10px 0 80px 18px;
+    margin: 10px 0 80px 0px;
     font-family: "Playfair Display";
     font-size: 5rem;
 }
@@ -294,6 +295,15 @@ a:hover {
 .nav-list li .squig.active-squig {
     opacity: 1;
     transform: translateX(-10px);
+}
+
+.underline {
+    position: absolute;
+    top: 44%;
+    width: 30px;
+    left: -30px;
+    opacity: 1;
+    transform: rotate(90deg); 
 }
 
 /* Projects
@@ -430,15 +440,10 @@ footer {
 }
 
 .footer-motto {
-    margin: 10px 0 80px 18px;
-    width: 550px;
+    margin: 10px 0 80px 0px;
+    width: 710px;
     font-family: "Playfair Display";
-    font-size: 4.5rem;
-    
-}
-
-.footer-text {
-    max-width: 600px;
+    font-size: 4rem;
 }
 
 .about-text {
@@ -456,13 +461,23 @@ footer {
 }
 
 .friends {
+    margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
 }
 
 .friends p {
     min-width: 33%;
     margin: 0;
+}
+
+.elsewhere {
+    padding-right: 55px;
+}
+
+.creative{
+    font-size: 1.5rem;
 }
 
 /* Media
@@ -614,6 +629,13 @@ body {
     position: absolute;
     bottom: 60px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.intro-box {
+    margin-left: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
